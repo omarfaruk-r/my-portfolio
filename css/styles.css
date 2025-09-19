@@ -286,24 +286,23 @@ body {
   border-radius: 20px;
 }
 
-#footer {
+/* FOOTER SECTION  */
+.bottom-container {
   background-color: #cfe6ba;
+  padding: 50px 0 20px;
 }
-
-.footer-link {
+a {
   color: #1c3329;
-  font-size: 2rem;
-  margin: 0 20px;
+  font-size: 25px;
+  margin: 10px 20px;
 }
-
-.footer-link:hover {
+.a:hover {
   color: #025a4e;
 }
-
 .copyright {
   color: #2c4415;
-  padding: 0 0 50px 0;
-  margin: -54px;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 
 /* RESPONSIVE BREAK POINT */
@@ -606,30 +605,5 @@ body {
   }
   #contact .container-fluid {
     padding: 7% 7%;
-  }
-}
-
-/* FOOTER SECTION  */
-@media screen and (max-width: 1033px) {
-  .copyright {
-    padding: 16px 0 50px 0;
-  }
-}
-
-@media screen and (max-width: 774px) {
-  .copyright {
-    padding: 25px 0 50px 0;
-  }
-}
-
-@media screen and (max-width: 633px) {
-  .copyright {
-    padding: 30px 0 50px 0;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .copyright {
-    padding: 40px 0 50px 0;
   }
 }
