@@ -194,13 +194,13 @@ body {
 .service-box {
   background-color: #1f4338;
   width: 100%;
-  border-radius: 12px;
+  border: 2px solid #336b5a;
+  border-radius: 16px;
+  transition: 0.3s;
 }
 
 .service-box:hover {
   transform: scale(1.03);
-  transition: 0.3s;
-  border: 2px solid #336b5a;
 }
 
 .f-end {
@@ -607,3 +607,4 @@ a {
     padding: 7% 7%;
   }
 }
+
