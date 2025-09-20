@@ -292,12 +292,12 @@ body {
   background-color: #cfe6ba;
   padding: 50px 0 20px;
 }
-a {
+.link {
   color: #1c3329;
   font-size: 25px;
   margin: 10px 20px;
 }
-.a:hover {
+.link:hover {
   color: #025a4e;
 }
 .copyright {
@@ -608,5 +608,6 @@ a {
     padding: 7% 7%;
   }
 }
+
 
 
